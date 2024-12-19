@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>CHATBOT</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<p id="demo">Loremsafs </p>
+<button type="button" onclick ='document.getElementById("demo").innerHTML="Hellow odl"'' >Click me</button>
+<p id="demo1">
+asdfa 
+</p>
+
+<p id ="parachange" >
+  hello 
+</p>
+<button type = "button" onclick="MyFunction()">click me to change</button>
+<button type="button" onclick="window.print()">Print this page</button>
+<h1 id="name">Name </h1>
+<h3 id="ch">high</h3>
+<h4>first paragraph</h4>
+<button type="button" onclick="document.write(45+5)">Get number</button>
+<button type="button" onclick="testfun()">test button</button>
+<p id = "test">fasdf</p>
+<p id = "test2">sdfsd</p>
+
+<p id="print"></p>
+<script>
+let x,y, z;
+x=1;
+y=1;
+z=x+y;
+document.getElementById("print").innerHTML=z;
+
+function testfun(){
+    document.getElementById("test").innerHTML="test 1";
+    document.getElementById("test2").innerHTML="test 2";
+  }
+</script>
+
+<script>
+  
+  document.write(2+5)
+  document.write("Hello coders")
+  document.getElementById("ch").innerHTML=212+2
+  document.getElementById("name").innerHTML="hello"
+  function MyFunction(){
+    document.getElementById("parachange").innerHTML="Paragraph has been changed";
+  }
+  document.getElementById("demo1").innerHTML = "My First JavaScript";
+  window.alert("hello")
+  alert(1+2)
+  console.log(2+4)
+  </script>
+</body>
+</html>
